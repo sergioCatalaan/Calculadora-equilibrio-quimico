@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Ecuaciones Químicas con Condiciones</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de equilibrio quimico</h1>
+
+    <div id="divnotas">
+      <textarea id="notas" ></textarea>
+    </div>
+
+    <form id="form1">
+
+
+      <label id="title1">Ingrese la ecuacion quimica (balanceada):</label>
+
+      <div id="ecuacion11">
+
+        <div id="input1">
+
+          <div id="uno">
+            <input type="text" id="formulario1" class="input" name="acuacion" placeholder="moleculas">
+            <input type="text" maxlength="3" id="formulario2" class="input" name="acuacion" placeholder="elemento">
+            <input type="text" id="formulario3" class="input" name="acuacion" placeholder="atomos">
+          </div>
+
+          <div id="dos">
+            <input type="text" id="formulario4" class="input" name="acuacion" placeholder="moleculas">
+            <input type="text" maxlength="3" id="formulario5" class="input" name="acuacion" placeholder="elemento">
+            <input type="text" id="formulario6" class="input" name="acuacion" placeholder="atomos">
+          </div>
+
+
+        </div>
+
+
+
+        <p class="igual">
+            ->
+        </p>
+
+
+
+        <div id="input2">
+
+          <div id="cuatro">
+            <input type="text"id="formulario7" class="input1" name="acuacion" placeholder="moleculas">
+            <input type="text" maxlength="10" id="formulario8" class="input1"  name="acuacion" placeholder="elemento">
+            <input type="text" id="formulario9" class="input1" name="acuacion" placeholder="atomos">
+          </div>
+    
+        </div>
+
+
+      </div>
+
+
+      <div id="elementos">
+
+
+        <div class="primerg">
+          <span id="primer-elemento"></span>
+          <input type="number" maxlength="10" id="gramos1" class="gramos" placeholder="Escribe las concentraciones del elemento (M):">
+        </div>
+
+        <div class="primerg">
+          <span id="segundo-elemento"></span>
+          <input type="number" maxlength="10" id="gramos2" class="gramos" placeholder="Escribe las concentraciones del elemento (M):">
+        </div>
+
+        <div class="primerg">
+          <span id="tercer-elemento"></span>
+          <input type="number" maxlength="10" id="gramos3" class="gramos" placeholder="Escribe las concentraciones del elemento (M):">
+        </div>
+        
+  
+  
+
+      </div>
+
+
+    
+
+
+    </form>
+
+    <button id="boton">
+
+      Calcular
+
+    </button>
+
+    <div id="result" class="result">
+      <span id="unidades"> </span>
+      <span id="unidades2"> </span>
+      <span id="unidades3"> </span>
+      <span id="unidades4"> </span>
+      <span id="unidades5"> </span>
+      <span id="unidades6"> </span>
+    </div>
+
+
+  </div>
+
+  <script src="sintaxsis.js">
+  </script>
+</body>
+</html>
